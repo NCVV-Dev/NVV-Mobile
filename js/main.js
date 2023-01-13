@@ -87,11 +87,6 @@ function initpicture() {
     });
 }
 
-// Prevent Accidental Submit (TODO: REWORK)
-if (window.history.replaceState) {
-    window.history.replaceState(null, null, window.location.href);
-}
-
 // Search Functionality
 function search() {
 	let input = document.getElementById('searchbar').value
